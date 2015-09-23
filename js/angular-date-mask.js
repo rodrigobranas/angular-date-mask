@@ -1,4 +1,4 @@
-angular.module("listaTelefonica").directive("uiDate", function ($filter) {
+angular.module("ngDateMask", []).directive("dateMask", function ($filter) {
 	return {
 		require: "ngModel",
 		link: function (scope, element, attrs, ctrl) {
