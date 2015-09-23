@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+<head>
+	<meta charset="UTF-8">
+	<title>Date Mask Example</title>
+	<script src="../lib/angular/angular.js"></script>
+	<script src="../js/angular-date-mask.js"></script>
+	<script>
+		angular.module("demo", ["ngDateMask"]);
+		angular.module("demo").controller("demoController", function ($scope) {
+		});
+	</script>
+</head>
+<body ng-controller="demoController">
+	<p>Date Mask</p>
+	<input type="text" ng-model="date" date-mask/><br/>
+	{{date}}
+</body>
+</html>
