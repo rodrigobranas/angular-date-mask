@@ -1,4 +1,4 @@
-angular.module("ngDateMask", []).directive("dateMask", function ($filter) {
+angular.module("ngDateMask", []).directive("dateMask", ["$filter", function ($filter) {
 	return {
 		require: "ngModel",
 		link: function (scope, element, attrs, ctrl) {
@@ -30,4 +30,4 @@ angular.module("ngDateMask", []).directive("dateMask", function ($filter) {
 			});
 		}
 	};
-});
+}]);
