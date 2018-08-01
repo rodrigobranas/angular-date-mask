@@ -1,6 +1,6 @@
 {
-  "name": "angular-date-mask",
-  "version": "1.0.0",
+  "name": "branas-angular-date-mask",
+  "version": "1.0.5",
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
